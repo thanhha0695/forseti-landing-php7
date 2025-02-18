@@ -92,7 +92,7 @@
                 <div class="row w-60">
                     <div class="col-md-3 col-sm-6 col-lg-3">
                         <div class="d-flex justify-content-center">
-                            <img class="img-fix" width="80" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/setting.png') }}" alt="FORSETI - BETTER FOR LIFE" />
+                            <img class="img-fix" width="80" height="50" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/setting.png') }}" alt="FORSETI - BETTER FOR LIFE" />
                         </div>
                         <div class="text-center">
                             <h6 class="text-center">Bảo hành tận nhà</h6>
@@ -104,7 +104,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-lg-3">
                         <div class="d-flex justify-content-center">
-                            <img class="img-fix" width="80" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/dolar.png') }}" alt="FORSETI - BETTER FOR LIFE" />
+                            <img class="img-fix" width="80" height="50" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/dolar.png') }}" alt="FORSETI - BETTER FOR LIFE" />
                         </div>
                         <div class="text-center">
                             <h6 class="text-center">Tổng đài hỗ trợ 24/7</h6>
@@ -115,7 +115,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-lg-3">
                         <div class="d-flex justify-content-center">
-                            <img class="img-fix" width="80" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/warranty.png') }}" alt="FORSETI - BETTER FOR LIFE" />
+                            <img class="img-fix" width="80" height="50" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/warranty.png') }}" alt="FORSETI - BETTER FOR LIFE" />
                         </div>
                         <div class="text-center">
                             <h6 class="text-center">Bảo trì sản phẩm trọn đời</h6>
@@ -126,7 +126,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-lg-3">
                         <div class="d-flex justify-content-center">
-                            <img class="img-fix" width="80" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/refresh.png') }}" alt="FORSETI - BETTER FOR LIFE" />
+                            <img class="img-fix" width="80" height="50" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/refresh.png') }}" alt="FORSETI - BETTER FOR LIFE" />
                         </div>
                         <div class="text-center">
                             <h6 class="text-center">Đổi trả</h6>
