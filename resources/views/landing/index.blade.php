@@ -78,7 +78,7 @@
                             Forseti cam kết mang đến cho khách hàng các sản phẩm chất lượng với thiết kế tinh tế, dịch vụ chăm sóc khách và bảo hành hoàn hảo nhất.
                         </p>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center">
                         <img class="img-fix" style="width: 30vw;" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/introduce.png') }}" alt="FORSETI - BETTER FOR LIFE" />
                     </div>
                 </div>
@@ -133,7 +133,7 @@
                             <p>
                                 Đổi trả trong vòng 7 ngày khi phát sinh lỗi kỹ thuật theo quy định
                             </p>
-                        </div></p>
+                        </div>
                     </div>
                 </div>
             </div>
