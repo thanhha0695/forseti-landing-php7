@@ -22,9 +22,9 @@
                         </a>
                     </div>
                     <div class="navbar-nav me-auto">
-                        <a class="nav-item nav-link active" href="javascript:void(0)">Trang chủ</a>
-                        <a class="nav-item nav-link" href="javascript:void(0)">Giới thiệu</a>
-                        <a class="nav-item nav-link" href="javascript:void(0)">Liên hệ</a>
+                        <a class="nav-item nav-link active" href="#">Trang chủ</a>
+                        <a class="nav-item nav-link" href="javascript:void(0)" onclick="scrollToTarget('introduce')">Giới thiệu</a>
+                        <a class="nav-item nav-link" href="javascript:void(0)" onclick="scrollToTarget('contact')">Liên hệ</a>
                     </div>
 
                     <span class="navbar-text me-5">
@@ -70,7 +70,7 @@
     </div>
     {{--Content--}}
     <div class="content-wrapper bg-white">
-        <div class="introduce py-5 px-5">
+        <div class="introduce py-5 px-5" id="introduce">
             <div class="header-elements d-flex justify-content-center py-5">
                 <h4 class="text-uppercase rounded-3 bg-label-info py-2 px-3">Giới thiệu</h4>
             </div>
@@ -145,7 +145,7 @@
         </div>
     </div>
     {{--Footer--}}
-    <div class="footer d-flex justify-content-center">
+    <div class="footer d-flex justify-content-center" id="contact">
         <div class="row px-10 w-75">
             <div class="col-md-6 col-lg-6 col-sm-12">
                 <div class="py-2 mt-3">
@@ -212,3 +212,18 @@
         </div>
     </div>
 @endsection
+
+<script type="text/javascript">
+    let target = document.location.hash
+
+    if (target.length > 1) {
+        scrollToTarget(target.replace('#', ''))
+    }
+
+    function scrollToTarget(id) {
+        const targetElement = document.getElementById(id);
+        if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+</script>
