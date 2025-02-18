@@ -65,12 +65,12 @@
     </div>
     {{--Content--}}
     <div class="content-wrapper bg-white">
-        <div class="introduce py-5 px-5 bg-label-gray" id="introduce">
+        <div class="introduce py-5 px-5 bg-body" id="introduce">
             <div class="header-elements d-flex justify-content-center py-5">
                 <h4 class="text-uppercase rounded-3 bg-label-info py-2 px-3">Giới thiệu</h4>
             </div>
             <div class="clearfix d-flex justify-content-center">
-                <div class="w-60 row">
+                <div class="w-75 row">
                     <div class="col-md-6 col-sm-12 col-lg-6 text-center">
                         <h6>FORSETI - BETTER FOR LIFE</h6>
                         <p>
