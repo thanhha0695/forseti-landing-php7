@@ -2,11 +2,6 @@
 
 @section('title', 'Five Stars - Pages')
 
-@section('page-style')
-    <!-- Page -->
-    <link rel="stylesheet" href="{{asset('assets/vendor/css/pages/page-auth.css')}}">
-@endsection
-
 @section('content')
     {{-- Navbar Header --}}
     <div class="header">
@@ -70,7 +65,7 @@
     </div>
     {{--Content--}}
     <div class="content-wrapper bg-white">
-        <div class="introduce py-5 px-5" id="introduce">
+        <div class="introduce py-5 px-5 bg-label-gray" id="introduce">
             <div class="header-elements d-flex justify-content-center py-5">
                 <h4 class="text-uppercase rounded-3 bg-label-info py-2 px-3">Giới thiệu</h4>
             </div>
