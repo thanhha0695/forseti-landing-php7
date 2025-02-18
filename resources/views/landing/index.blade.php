@@ -1,6 +1,6 @@
 @extends('layouts/blankLayout')
 
-@section('title', 'Landing - Pages')
+@section('title', 'Five Stars - Pages')
 
 @section('page-style')
     <!-- Page -->
@@ -72,7 +72,7 @@
     <div class="content-wrapper bg-white">
         <div class="introduce py-5 px-5">
             <div class="header-elements d-flex justify-content-center py-5">
-                <h4 class="text-uppercase rounded-3 bg-info-subtle py-2 px-3">Giới thiệu</h4>
+                <h4 class="text-uppercase rounded-3 bg-label-info py-2 px-3">Giới thiệu</h4>
             </div>
             <div class="clearfix d-flex justify-content-center">
                 <div class="w-60 row">
@@ -91,7 +91,7 @@
         </div>
         <div class="service px-5 py-5">
             <div class="header-elements d-flex justify-content-center">
-                <h4 class="text-uppercase rounded-3 bg-info-subtle py-2 px-3">Dịch vụ Khách hàng</h4>
+                <h4 class="text-uppercase rounded-3 bg-label-info py-2 px-3">Dịch vụ Khách hàng</h4>
             </div>
             <div class="clearfix d-flex justify-content-center py-5">
                 <div class="row w-60">
@@ -148,7 +148,7 @@
     <div class="footer d-flex justify-content-center">
         <div class="row px-10 w-75">
             <div class="col-md-6 col-lg-6 col-sm-12">
-                <div class="px-10 py-5">
+                <div class="py-2 mt-3">
                     <a href="#">
                         <img class="img-fix" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/45x45.png') }}" alt="FORSETI - BETTER FOR LIFE" />
                     </a>
