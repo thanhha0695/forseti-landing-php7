@@ -148,7 +148,7 @@
             <div class="col-md-6 col-lg-6 col-sm-12">
                 <div class="py-2 mt-3">
                     <a href="#">
-                        <img class="img-fix" width="45" height="45" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/45x45.png') }}" alt="FORSETI - BETTER FOR LIFE" />
+                        <img class="img-fix" width="60" height="60" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/45x45.png') }}" alt="FORSETI - BETTER FOR LIFE" />
                     </a>
                 </div>
                 <div class="text-uppercase">
