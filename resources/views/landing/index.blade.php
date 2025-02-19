@@ -11,13 +11,20 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbar-ex-2">
-                    <div class="me-12">
-                        <a href="#">
-                            <img class="img-fix" width="60" height="60" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/45x45.png') }}" alt="FORSETI - BETTER FOR LIFE" />
-                        </a>
-                        <span class="text-uppercase fw-bold">Trung tâm dịch vụ CSKH Five Stars</span>
+                    <div class="me-12 row">
+                        <div class="col-1">
+                            <a href="#">
+                                <img class="img-fix" width="80" height="80" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/45x45.png') }}" alt="FORSETI - BETTER FOR LIFE" />
+                            </a>
+                        </div>
+                        <div class="col-11 text-center">
+                            <div class="fs-3 fw-bold text-info text-uppercase">
+                                Trung tâm dịch vụ khách hàng 5 sao
+                            </div>
+                            <div class="text-center text-uppercase mt-3 text-info fs-3 fw-bold">DVKH Five stars</div>
+                        </div>
                     </div>
-                    <div class="navbar-nav me-auto">
+                    <div class="d-flex justify-content-center me-auto ms-auto navbar-nav">
                         <a class="nav-item nav-link active" href="#">Trang chủ</a>
                         <a class="nav-item nav-link" href="javascript:void(0)" onclick="scrollToTarget('introduce')">Giới thiệu</a>
                         <a class="nav-item nav-link" href="javascript:void(0)" onclick="scrollToTarget('contact')">Liên hệ</a>
