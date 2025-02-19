@@ -11,10 +11,11 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbar-ex-2">
-                    <div>
+                    <div class="me-12">
                         <a href="#">
-                            <img class="img-fix" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/45x45.png') }}" alt="FORSETI - BETTER FOR LIFE" />
+                            <img class="img-fix" width="60" height="60" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/45x45.png') }}" alt="FORSETI - BETTER FOR LIFE" />
                         </a>
+                        <span class="text-uppercase fw-bold">Trung tâm dịch vụ CSKH Five Stars</span>
                     </div>
                     <div class="navbar-nav me-auto">
                         <a class="nav-item nav-link active" href="#">Trang chủ</a>
@@ -23,13 +24,13 @@
                     </div>
 
                     <span class="navbar-text me-5">
-            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
-            info@dvkh-fivestars.com
-          </span>
+                        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+                        info@dvkh-fivestars.com
+                    </span>
                     <span class="navbar-text">
-            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-phone"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
-            1900 888 644
-          </span>
+                        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-phone"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+                        1900 888 644
+                    </span>
                 </div>
             </div>
         </nav>
@@ -44,13 +45,13 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/2.png')  }}" alt="First slide" />
+                    <img class="d-block w-100" height="400" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/2.png')  }}" alt="First slide" />
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/3.png') }}" alt="Second slide" />
+                    <img class="d-block w-100" height="400" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/3.png') }}" alt="Second slide" />
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/4.png') }}" alt="Third slide" />
+                    <img class="d-block w-100" height="400" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/4.png') }}" alt="Third slide" />
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
@@ -72,10 +73,12 @@
             <div class="clearfix d-flex justify-content-center">
                 <div class="w-75 row">
                     <div class="col-md-6 col-sm-12 col-lg-6 text-center">
-                        <h6>FORSETI - BETTER FOR LIFE</h6>
+                        <h6>DVKH FIVE STARS</h6>
                         <p>
-                            FORSETI - Chuyên sản xuất và phân phối các sản phẩm máy lọc nước, cây nước nóng lạnh, gia dụng thông minh tại Việt Nam.
-                            Forseti cam kết mang đến cho khách hàng các sản phẩm chất lượng với thiết kế tinh tế, dịch vụ chăm sóc khách và bảo hành hoàn hảo nhất.
+                            FORSETI – Better for life cung cấp các cách liên hệ khách hàng cá nhân và doanh nghiệp, khách hàng ưu tiên, bao gồm kênh hotline, kênh hỗ trợ qua Zalo OA Dvkh Five Stars, kênh chi nhánh/ Cửa hàng giới thiệu sản phẩm, kênh bán hàng qua sàn thương mại điện thử. Bạn có thể tìm kiếm các kênh hỗ trợ hoặc tìm câu hỏi thường gặp trên website.
+                        </p>
+                        <p>
+                            FORSETI - Chuyên sản xuất và phân phối các sản phẩm máy lọc nước, cây nước nóng lạnh, gia dụng thông minh tại Việt Nam. Forseti cam kết mang đến cho khách hàng các sản phẩm chất lượng với thiết kế tinh tế, dịch vụ chăm sóc khách và bảo hành hoàn hảo nhất.
                         </p>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center">
