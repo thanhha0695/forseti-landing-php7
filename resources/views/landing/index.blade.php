@@ -174,10 +174,10 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row mb-3 ms-3">
-                        <div class="col-sm-10">
-                            <button type="submit" class="btn btn-primary">Gửi</button>
+                        <div class="row mb-3 ms-3">
+                            <div class="row">
+                                <div class="justify-content-center d-flex mb-2"><button type="submit" class="btn btn-primary">Gửi</button></div>
+                            </div>
                         </div>
                     </div>
                 </form>
