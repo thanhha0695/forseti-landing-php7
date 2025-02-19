@@ -18,10 +18,10 @@
                             </a>
                         </div>
                         <div class="col-11 text-center">
-                            <div class="fs-1 fw-bold text-info text-uppercase">
+                            <div class="fs-3 fw-bold text-info text-uppercase">
                                 Trung tâm dịch vụ khách hàng 5 sao
                             </div>
-                            <div class="text-center text-uppercase mt-3 text-info fs-3 fw-bold">DVKH Five stars</div>
+                            <div class="text-center text-uppercase mt-3 text-info fs-1 fw-bold">DVKH Five stars</div>
                         </div>
                     </div>
                     <div class="d-flex justify-content-center me-auto ms-auto navbar-nav">
