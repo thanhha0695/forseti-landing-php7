@@ -1,6 +1,6 @@
 @extends('layouts/blankLayout')
 
-@section('title', 'Five Stars - Pages')
+@section('title', 'Dvkh-Five-Stars')
 
 @section('content')
     {{-- Navbar Header --}}
