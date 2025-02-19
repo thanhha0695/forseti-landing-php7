@@ -257,7 +257,7 @@
                                     <i class='bx bxs-user-rectangle' ></i>
                                 </div>
                                 <div class="col-11">
-                                    <p>Đại diện bởi: Lê Công Anh</p>
+                                    <p>Đại diện bởi: Ông Lê Công Anh</p>
                                 </div>
                             </div>
                             <div class="row">
