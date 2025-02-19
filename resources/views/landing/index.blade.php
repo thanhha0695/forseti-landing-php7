@@ -149,7 +149,6 @@
                 </div>
             </div>
         </div>
-        <div class="feedback px-5 py-5"></div>
         <div class="feedback px-5 py-5" id="feedback">
             <div class="header-elements d-flex justify-content-center">
                 <h4 class="text-uppercase rounded-3 bg-label-info py-2 px-3">Thông tin và nội dung liên hệ</h4>
@@ -176,6 +175,11 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row mb-3 ms-3">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">Gửi</button>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
@@ -190,7 +194,7 @@
                     </a>
                 </div>
                 <div class="text-uppercase">
-                    <h6>Trung tâm dịch vụ khách hàng 5 sao FORSETI Việt Nam</h6>
+                    <h6>Trung tâm dịch vụ khách hàng Five Stars 5 sao - thuộc Công ty Cổ phần FORSETI Việt Nam</h6>
                     <div>
                         <div class="px-5">
                             <p>
