@@ -27,6 +27,7 @@
                     <div class="d-flex justify-content-center me-auto ms-auto navbar-nav">
                         <a class="nav-item nav-link active" href="#">Trang chủ</a>
                         <a class="nav-item nav-link" href="javascript:void(0)" onclick="scrollToTarget('introduce')">Giới thiệu</a>
+                        <a class="nav-item nav-link" href="javascript:void(0)" onclick="scrollToTarget('feedback')">Feedback</a>
                         <a class="nav-item nav-link" href="javascript:void(0)" onclick="scrollToTarget('contact')">Liên hệ</a>
                     </div>
 
@@ -148,6 +149,36 @@
                 </div>
             </div>
         </div>
+        <div class="feedback px-5 py-5"></div>
+        <div class="feedback px-5 py-5" id="feedback">
+            <div class="header-elements d-flex justify-content-center">
+                <h4 class="text-uppercase rounded-3 bg-info-subtle py-2 px-3">Thông tin và nội dung liên hệ</h4>
+            </div>
+            <div class="d-flex justify-content-center">
+                <form>
+                    <div class="card d-flex justify-content-center">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-12">
+                                    <input type="text" class="form-control" name="name" placeholder="Họ & tên (*)" required />
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <input type="email" class="form-control" name="email" placeholder="Email (*)" required />
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <input type="text" class="form-control" name="phone" placeholder="Số điện thoại (*)" required />
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-12">
+                                    <textarea type="textarea" class="form-control" name="content" placeholder="Nội dung (*)" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
     {{--Footer--}}
     <div class="footer d-flex justify-content-center" id="contact">
@@ -161,7 +192,6 @@
                 <div class="text-uppercase">
                     <h6>Trung tâm dịch vụ khách hàng 5 sao FORSETI Việt Nam</h6>
                     <div>
-                        <h6>Các nên tảng xã hội</h6>
                         <div class="px-5">
                             <p>
                                 <a href="https://x.com/ForsetiVietnam" class="width-social btn btn-outline-light rounded-circle text-info bg-card">
@@ -191,25 +221,52 @@
             </div>
             <div class="col-md-6 col-lg-6 col-sm-12 py-5 mt-10">
                 <div>
-                    <h6 class="text-uppercase">Thông tin liên hệ</h6>
+                    <h6 class="text-uppercase">Công ty Cổ phần Forseti Việt Nam</h6>
                     <div>
                         <div class="px-5">
-                            <p>
-                                <i class='bx bx-barcode-reader'></i>
-                                <span class="mt-1">Mã số thuế: 0108578808</span>
-                            </p>
-                            <p>
-                                <i class='bx bx-map' ></i>
-                                <span class="mt-1">Địa chỉ: Số 153 phố Quan Nhân, Phường Nhân Chính, Quận Thanh Xuân, Thành phố Hà Nội, Việt Nam</span>
-                            </p>
-                            <p>
-                                <i class='bx bxs-phone' ></i>
-                                <span class="mt-1">Hotline:  1900 888 644</span>
-                            </p>
-                            <p>
-                                <i class='bx bx-envelope' ></i>
-                                <span class="mt-1">info@dvkh-fivestars.com</span>
-                            </p>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class='bx bx-barcode-reader'></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Mã số thuế: 0108578808</p>
+                                    <p>Ngày cấp đăng ký kinh doanh: 18/01/2019</p>
+                                    <p>Nơi cấp: Sở kế hoạch và đâu tư thành phố Hà Nội</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class='bx bxs-user-rectangle' ></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Đại diện bởi: Lê Công Anh</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class='bx bx-map' ></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Địa chỉ: Số 153 phố Quan Nhân, Phường Nhân Chính, Quận Thanh Xuân, Thành phố Hà Nội, Việt Nam</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class='bx bxs-phone' ></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Hotline:  1900 888 644</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class='bx bx-envelope' ></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>info@dvkh-fivestars.com</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
