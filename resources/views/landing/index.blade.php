@@ -235,7 +235,7 @@
                                 <div class="col-11">
                                     <p>Mã số thuế: 0108578808</p>
                                     <p>Ngày cấp đăng ký kinh doanh: 18/01/2019</p>
-                                    <p>Nơi cấp: Sở kế hoạch và đâu tư thành phố Hà Nội </p>
+                                    <p>Nơi cấp: Sở Kế hoạch và Đầu tư thành phố Hà Nội </p>
                                 </div>
                             </div>
                             <div class="row">
