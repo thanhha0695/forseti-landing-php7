@@ -152,7 +152,7 @@
         <div class="feedback px-5 py-5"></div>
         <div class="feedback px-5 py-5" id="feedback">
             <div class="header-elements d-flex justify-content-center">
-                <h4 class="text-uppercase rounded-3 bg-info-subtle py-2 px-3">Thông tin và nội dung liên hệ</h4>
+                <h4 class="text-uppercase rounded-3 bg-label-info py-2 px-3">Thông tin và nội dung liên hệ</h4>
             </div>
             <div class="d-flex justify-content-center">
                 <form>
