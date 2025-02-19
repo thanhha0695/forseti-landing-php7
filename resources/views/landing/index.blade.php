@@ -198,23 +198,23 @@
                     <div>
                         <div class="px-5">
                             <p>
-                                <a href="https://x.com/ForsetiVietnam" class="width-social btn btn-outline-light rounded-circle text-info bg-card">
+                                <a href="https://x.com/ForsetiVietnam" class="width-social btn btn-outline-light rounded-circle bg-label-info bg-info text-white">
                                     <i class='bx bxl-twitter'></i>
                                 </a>
                                 <span class="mt-1">Twitter Forseti</span>
                             </p>
                             <p>
-                                <a href="https://www.facebook.com/Forseti.vn" class="width-social btn btn-outline-light rounded-circle text-info bg-card"><i class='bx bxl-facebook-circle'></i></a>
+                                <a href="https://www.facebook.com/Forseti.vn" class="width-social btn btn-outline-light rounded-circle text-info bg-label-info"><i class='bx bxl-facebook-circle'></i></a>
                                 <span class="mt-1">Facebook Forseti</span>
                             </p>
                             <p>
-                                <a href="https://www.instagram.com/forsetivietnam" class="width-social btn btn-outline-light rounded-circle text-info bg-card">
+                                <a href="https://www.instagram.com/forsetivietnam" class="width-social btn btn-outline-light rounded-circle text-danger bg-label-info">
                                     <i class='bx bxl-instagram' ></i>
                                 </a>
                                 <span class="mt-1">Instagram Forseti</span>
                             </p>
                             <p>
-                                <a href="https://www.youtube.com/@forsetivietnam-chuyengialo1854" class="width-social btn btn-outline-light rounded-circle text-info bg-card">
+                                <a href="https://www.youtube.com/@forsetivietnam-chuyengialo1854" class="width-social btn btn-outline-light rounded-circle text-danger bg-label-info">
                                     <i class='bx bxl-youtube' ></i>
                                 </a>
                                 <span class="mt-1">Youtube Forseti</span>
@@ -234,7 +234,21 @@
                                 </div>
                                 <div class="col-11">
                                     <p>Mã số thuế: 0108578808</p>
-                                    <p>Ngày cấp đăng ký kinh doanh: 18/01/2019</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class='bx bx-time'></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Ngày cấp đăng ký kinh doanh: 18/01/2019 </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class='bx bxs-map-pin' ></i>
+                                </div>
+                                <div class="col-11">
                                     <p>Nơi cấp: Sở Kế hoạch và Đầu tư thành phố Hà Nội </p>
                                 </div>
                             </div>
