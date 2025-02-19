@@ -14,11 +14,11 @@
                     <div class="me-12 row">
                         <div class="col-1">
                             <a href="#">
-                                <img class="img-fix" width="80" height="80" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/45x45.png') }}" alt="FORSETI - BETTER FOR LIFE" />
+                                <img class="img-fix" width="100" height="100" src="{{ \Illuminate\Support\Facades\Storage::disk('public')->url('landing/45x45.png') }}" alt="FORSETI - BETTER FOR LIFE" />
                             </a>
                         </div>
                         <div class="col-11 text-center">
-                            <div class="fs-3 fw-bold text-info text-uppercase">
+                            <div class="fs-1 fw-bold text-info text-uppercase">
                                 Trung tâm dịch vụ khách hàng 5 sao
                             </div>
                             <div class="text-center text-uppercase mt-3 text-info fs-3 fw-bold">DVKH Five stars</div>
