@@ -14,9 +14,10 @@
   <!-- Canonical SEO -->
   <link rel="canonical" href="{{ config('variables.productPage') ? config('variables.productPage') : '' }}">
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/favicon/favicon.ico') }}" />
+  <link rel="icon" href="{{ asset('assets/img/favicon/45x45.png')  }}" type="image/icon type">
 
-  <!-- Include Styles -->
+
+    <!-- Include Styles -->
   @include('layouts/sections/styles')
 
   <!-- Include Scripts for customizer, helper, analytics, config -->
